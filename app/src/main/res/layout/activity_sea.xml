@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sea">
+    <LinearLayout
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/ib_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+
+            android:src="@mipmap/arrows"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="绘本详情"
+            android:textColor="#02b5bc"
+            android:textSize="20sp"
+            android:layout_marginLeft="110dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <View
+        android:id="@+id/b"
+
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#c2c1c1"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="《费雪宝宝》"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="209dp"
+                android:layout_height="189dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@mipmap/sea" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="12dp"
+                    android:text="内容简介"
+                    android:textSize="19sp"
+                    android:textColor="#000"/>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@mipmap/title"
+                    android:layout_marginBottom="20dp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:lineSpacingExtra="10dp"
+                android:text="费雪宝宝益智触摸书是中央广播电视大学出版社从美国美泰公司引进的低幼读物。本系列图书针对4-36个月左右的宝宝专门设计，采用丰富的可触摸材料、有趣的功能设计，全面刺激宝宝的触觉系统，让宝宝的知觉更加敏锐；书中更包含了丰富而有趣的百科小知识，激发宝宝天性中的探索欲望；同时，本系列图书色彩鲜明、画面生动，能够充分刺激宝宝的视觉系统，促进手眼协调发展。书中所用材料都经过美泰指定实验室检测，为宝宝送上专业级别的安全保证和贴心呵护。”"
+                android:textColor="#383838"
+                android:textSize="16sp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="购买链接"
+                    android:textColor="#000"
+                    android:textSize="19sp" />
+
+                <ImageView
+
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@mipmap/title"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="推荐链接：费雪宝宝一直触摸书（套装全三册）"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#4894ea"
+                android:onClick="openWeb"
+                tools:ignore="OnClick" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="内页剧透"
+                    android:textSize="19dp"
+                    android:textColor="#383838"/>
+
+                <ImageView
+
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@mipmap/title"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/seaone" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/seatwo" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

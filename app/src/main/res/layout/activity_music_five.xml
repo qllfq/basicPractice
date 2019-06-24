@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MusicFive"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+
+        android:orientation="vertical"
+        android:background="@mipmap/musicfive">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+
+            >
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:id="@+id/ib_back"
+                android:layout_marginLeft="15sp"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/arrows" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:text="主题歌单" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"
+
+                android:src="@mipmap/songlist5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27dp"
+                android:layout_gravity="center_vertical"
+                android:text="主题：嘘~晚安"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+
+            android:background="#02b5bc"
+
+            >
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/play" />
+
+            <TextView
+                android:id="@+id/tv_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:text="全部播放"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textColor="#fff"
+                android:text="37首音乐"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:visibility="visible"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <include layout="@layout/play_layout"
+        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

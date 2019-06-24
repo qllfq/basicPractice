@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+      <ImageView
+            android:id="@+id/video_image"
+            android:layout_width="wrap_content"
+            android:layout_height="205dp"
+
+          android:visibility="visible"
+            android:src="@mipmap/img1"
+           />
+        <ImageView
+            android:id="@+id/player"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/img2"
+            android:visibility="visible"/>
+
+        <VideoView
+            android:id="@+id/video"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginTop="5dp"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+          />
+
+    </FrameLayout>
+
+
+   <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="374dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="15dp"
+                android:textColor="#000000"
+                android:text="第一单元   什么是好的亲子关系"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:paddingTop="10dp"
+               >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/tv_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第一节    高质量亲子关系的三大特征"
+                        android:textSize="15sp"
+                        android:textColor="#b5b7b3"
+                         />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_3"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@mipmap/img3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:paddingTop="10dp"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/tv_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第二节   稳定安全且灵活开放的亲子关系"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                         />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_4"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@mipmap/img4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:paddingTop="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第三节   和善又界限分明的亲子关系"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@mipmap/img4" />
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:paddingTop="18dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="16dp"
+                android:text="第二单元   怎样处理好亲子关系"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:paddingTop="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash; <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="第一节"
+                         android:textColor="#65af20"
+                         android:textSize="15sp"
+                         android:textStyle="bold" />&ndash;&gt;
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第一节    了解孩子的兴趣爱好"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@mipmap/img4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash;<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="实践"
+                        android:textColor="#65af20"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />&ndash;&gt;
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第二节     和孩子成为好朋友"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@mipmap/img4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:paddingTop="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash; <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="综合"
+                         android:textColor="#65af20"
+                         android:textSize="15sp"
+                         android:textStyle="bold" />&ndash;&gt;
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第三节     经常进行沟通及时解决问题"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_5"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@mipmap/img4" />
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:paddingTop="18dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="16dp"
+                android:text="第三单元   陪孩子玩益智类游戏"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:paddingTop="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash; <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="第一节"
+                         android:textColor="#65af20"
+                         android:textSize="15sp"
+                         android:textStyle="bold" />&ndash;&gt;
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第一节    我说你来做"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@mipmap/img4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash;<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="实践"
+                        android:textColor="#65af20"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />&ndash;&gt;
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第二节     点点比大小"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@mipmap/img4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:paddingTop="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第三节     喂喂小兔子"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@mipmap/img4" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="-用启护在家早教-"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+</LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="#c7c7c7"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="第一课 学习进度 25%"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/iv_6"
+            android:layout_width="80dp"
+            android:layout_height="38dp"
+            android:scaleType="centerCrop"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="去考试"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:background="#02b5bc" />
+    </RelativeLayout>
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="第一单元"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:visibility="visible"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        >
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c2c1c1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <com.example.qiao.myapplication.BottomLayout
+            android:id="@+id/firstpage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.example.qiao.myapplication.BottomLayout>
+        <com.example.qiao.myapplication.BottomLayout
+            android:id="@+id/collage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.example.qiao.myapplication.BottomLayout>
+        <com.example.qiao.myapplication.BabyLayout
+            android:id="@+id/baby"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.example.qiao.myapplication.BabyLayout>
+       <!-- <ImageView
+            android:id="@+id/baby"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@mipmap/baby_normal" />-->
+        <com.example.qiao.myapplication.BottomLayout
+            android:id="@+id/square"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.example.qiao.myapplication.BottomLayout>
+        <com.example.qiao.myapplication.BottomLayout
+            android:id="@+id/mine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.example.qiao.myapplication.BottomLayout>
+    </LinearLayout>
+
+</LinearLayout>

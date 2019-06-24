@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebtn"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:text="轨迹线游戏" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:src="@mipmap/track" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="30dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="推荐理由：这种看似无聊的把戏对于正在秩序期的孩子来说，相当有吸引力，也是打发无聊时光的好方法。"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginBottom="30dp"
+                android:text="内容：\n
+游戏准备：一些彩色扣子、硬币、小石头、小积木甚至是红豆、黄豆。\n\n
+在纸上画出一些线条，如圆形、波浪形，让宝宝将彩色扣子排列在线上。这种看似无聊的把戏对于正在秩序期的孩子来说，相当有吸引力，也是打发无聊时光的好方法。\n\n
+家长也可以在小颗粒的一面贴上双面胶，这样还可以得到一副非常“强迫症”的艺术作品，有一种秩序的特殊美感！"
+                />
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

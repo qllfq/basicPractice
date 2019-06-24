@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".News1">
+    <include layout="@layout/titlebtn" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="重庆儿童伤害背后：我们应该如何保护孩子？"
+                android:textColor="#000000"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="新华网      10小时以前"
+                android:layout_marginTop="5dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@mipmap/news2image"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="10月26日上午9点半左右，重庆巴南区新世纪幼儿园的老师带着全体幼童在门口做完早操，正在返回教室途中，一名中年妇女突然手持菜刀冲入人群行凶，导致14名孩子受伤。
+据现场目击者称：嫌疑人下手极狠，主要朝幼童脸、脑袋、脖子这些脆弱地方下手，据说有一个小姑娘眼睛已经爆了。
+事发后，学校保安和工作人员奋力将犯罪嫌疑人刘某制服。
+巴南警方接警后迅速赶到现场处置，将受伤的14名幼童均送至巴南区人民医院进行治疗。
+随后，重庆副市长、市公安局长邓恢林迅速赶到现场，指挥案件侦办，要求卫生部门全力救治受伤孩子。
+每当发生这样的事，人人痛心。不过，凡事都应防患于未然。我们应该教会小朋友，遇到砍杀袭击，应该如何有效自救。
+一、快速跑开，远离歹徒\n
+二、及时躲避，向建筑物、围栏、车体、树木等寻求庇护\n
+三、跑躲不急，要大声呼救，呼吁周围群众\n
+孩子是祖国的花朵，但这些花朵现在还太过稚嫩，需要我们细心保护。面对外界的侵犯，我们需要教给他们保护自己的办法。
+当孩子们面对这种恐怖事件时，需要迅速反应过来，尽量逃跑、躲避，尤其女孩子，会被吓傻，呆立不动，这是最可怕的。
+家长们可以在平时进行场景模拟，教给孩子们自保的知识和手段，最后，希望每一个孩子都能在安全的环境下健康成长！
+"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

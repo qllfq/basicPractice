@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Look">
+    <RelativeLayout
+        android:id="@+id/layouttop"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="vertical">
+        <!-- -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+
+            android:layout_centerInParent="true"
+
+            android:text="精选"
+            android:textColor="#02b5bc"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/dongtai"
+            android:id="@+id/publish"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"/>
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c2c1c1"
+        />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:src="@mipmap/img_1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="5"
+                android:text="铃当妈咪\n2岁一个月22天" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/add" />
+        </LinearLayout>
+
+   <!-- <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@mipmap/arrows"
+        android:id="@+id/back_mian"/>-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="7dip"
+        android:layout_marginRight="7dip"
+        android:layout_marginBottom="7dip"
+        android:cacheColorHint="#00000000"
+        android:drawSelectorOnTop="false"
+        android:listSelector="#00000000"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        android:drawingCacheQuality="low"
+        android:divider="#00000000"
+        android:dividerHeight="0dip"
+        android:fadingEdgeLength="0.0sp"
+        />
+
+
+</LinearLayout>

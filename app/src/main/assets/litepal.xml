@@ -1,0 +1,9 @@
+<?xml version="1" encoding="utf-8" ?>
+<litepal>
+    <dbname value="Person"></dbname>
+    <version value="2"></version>
+    <list>
+        <mapping class="com.example.qiao.myapplication.User"></mapping>
+        <mapping class="com.example.qiao.myapplication.Many"></mapping>
+    </list>
+</litepal>

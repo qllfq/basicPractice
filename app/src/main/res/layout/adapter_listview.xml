@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="#ffffff"
+    tools:ignore="MergeRootFrame" >
+   <!-- <RelativeLayout
+        android:id="@+id/Content_Layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/button1"
+        android:gravity="center">-->
+        <LinearLayout
+            android:id="@+id/person_release"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_alignParentBottom="true" >
+
+            <TextView
+
+                android:id="@+id/text"
+                android:layout_height="30dp"
+                android:layout_width="fill_parent"
+                android:textColor="#000"
+                android:gravity="top"
+                android:textSize="16sp"
+                android:maxLength="500"
+                android:singleLine="false"
+                android:background="#ffffff"
+                />
+            <com.example.qiao.myapplication.MyGridView
+                android:id="@+id/ScrollgridviewLook"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="5dp"
+                android:columnWidth="90dp"
+                android:gravity="center"
+                android:background="#ffffff"
+                android:horizontalSpacing="5dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="10dp"
+                android:layout_marginTop="10dp"/>
+
+
+
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/person_release"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+
+        <ImageView
+            android:id="@+id/zan"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="100dp"
+            android:src="@mipmap/skr" />
+
+        <!--<TextView
+
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/zan"
+            android:text="2"
+            android:textSize="12sp"/>
+-->
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:id="@+id/pinglun"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:src="@mipmap/say" />
+
+        <!--<TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+           android:layout_below="@+id/pinglun"
+            android:text="2"
+            android:textSize="12sp"/>-->
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@mipmap/share"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+  <!--  </RelativeLayout>-->
+
+</RelativeLayout>

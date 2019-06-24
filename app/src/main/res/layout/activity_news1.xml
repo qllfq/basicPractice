@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".News1">
+    <include layout="@layout/titlebtn" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="重庆幼儿园悲剧：儿童保护任重道远！新加坡或许是值得参考的榜样！"
+                android:textColor="#000000"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="新华网      10小时以前"
+                android:layout_marginTop="5dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@mipmap/news1image"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="2018年10月26日9时30分许，重庆巴南区人刘某(女，39岁)在巴南区鱼洞巴县大道一幼儿园门口持菜刀行凶，致做早操返回教室途中14名学生受伤。
+所幸，在学校保安以及工作人员的奋力抵抗下，将施暴的刘姓女子制伏。目前受伤儿童在当地医疗专家的全力抢救下，暂无生命危险。
+天可怜见。
+难以想象，这场骇人听闻，牵动着所有人神经的暴力事件，竟然直指尚值垂髫之年的孩子们！
+他们仅仅是一帮还未涉世、对人不设防、天真烂漫的孩子啊！怎么下的了手！
+小南君上班路上有两家幼儿园，每天走过幼儿园操场旁边的栅栏，恰巧会碰到孩子们出早操。
+快乐的音乐、和煦的阳光以及努力跟上节拍摇摆的小小身影，这些美好汇集在一起，所有的不快都会被一扫而空。\n
+图片来源于网络\n
+儿童保护\n
+一直以来，如何保障儿童健康、安全成长一直都是人们关注的焦点问题之一。
+近几年，我们常常可以在幼儿园，中小学的校园门前，看到警方的标语和值班亭，在校园周围增加警力，上下学期间增设警力部署，这样的做法，一方面可以震慑极少数不法人员，另一方面也确实让家长们更加安心。
+除去警方的保护，社会、学校以及家庭也都应该承担起应有的责任，如果孩子的安全得不到健全有效的保护，那么全社会都会陷入集体的焦虑之中。
+为此，建立一整套健全有效的保护机制，是一个长远且亟待解决的课题。
+在法律层面，司法机关需继续加大对伤害儿童行为的惩戒力度；
+在治安层面，则需要进一步强化警方的保护责任；
+在社会层面，还要强化学校和家庭的共同保护责任。
+特别是在社会层面，我们需要有一整套的协调儿童保护资源运转的健康体系，进而实现保护儿童的目的。
+具体来看，就是动员更多的社会力量和组织，强化对儿童保护必要性和应对措施的宣传介绍，让更多人自觉加入到儿童保护的行列中来。
+要知道，保护孩子，就是保护我们的未来。
+新加坡的儿童保护\n
+作为一个以介绍新加坡为内核的公众号，在这里，小南君还是要和大家介绍一下，新加坡在保护孩子健康成长方面做出了那些努力。
+今年年中，国际非政府组织救助儿童会（Save The Children）发布的《童年终结数据》报告。
+《童年终结数据》报告中，有一份极具参考价值的数据——2018终结童年指数（End ofChildhoodIndex Results2018）。
+所谓的终结童年指数，是救助儿童会根据死亡、疾病、健康不佳、营养不良、失学、童工、童婚、过早怀孕和极端暴力等可能破坏童年的指标，综合计算得出来的。
+2018终结童年指数（End ofChildhoodIndex Results2018）涵盖的国家有175个，并且从1至1000分为各国进行排名。分数越高，代表保护儿童的工作做得越好。
+940分及以上：几乎没有孩童错过童年\n
+760-939分：一些孩童正在错过童年\n
+600-759分：许多孩子正错过童年\n
+380-599分：大多数孩子正错过童年\n
+379分及以下：几乎所有孩童没有童年\n
+在2018终结童年指数排名中，新加坡和斯诺文尼亚得分987，并列世界第一！
+新加坡与斯洛文尼亚并罗列成为全球最适合儿童成长的国家。
+而仅仅在2017年，新加坡还排名在33位。
+飞速的排名上涨，也显示出新加坡在而儿童成长方面做出的巨大努力和卓越的成效。
+学校保护\n
+新加坡每间幼儿园开业前都会接受幼儿署的检查，这一检查不仅重视学校可能存在的大的治安隐患，还在细节上关注入微。
+比如幼儿园内容易撞头的墙角墙面是否做了保护措施；卫生间和洗澡区是否做了防滑处理等等。除了安全就是卫生状况了，到园内参观时妈妈们可以留意一下厨房，看为孩子们准备午餐和下午茶的地方是否整洁有序。
+孩子们一天至少要在幼儿园吃两次，吃的营养且卫生对小家伙的身心和智力发展都至关重要。
+警方和邻里保护
+我们来看一下新加坡各大警署的提供优质服务数据指标;
+10秒钟内接听“999”电话
+15分钟内抵达紧急事故现场
+30分钟内抵达非紧急事故现场
+5个工作日内回复公众的信件
+7个工作日内向受害者报告案件的进展
+任一警署或者邻里警岗的服务柜台，在15分钟内处理需求
+在现实情况下，面对突发的儿童事件时，这一效率还将提高。
+除了警方的力量，广大群众的力量也会被充分利用。比方说为促进社区伙伴关系，有邻里守望相助小组（NeighbourhoodWatch Zone）、安全与保安守望相助小组（SSWG Safety Security Watch Group）......这些都能有效防范罪案发生。
+社会治安\n
+新加坡最大特点之一就是优秀的治安环境了！
+我们来看一些细节。
+在新加坡，如果你半夜回家的话，你会发现居住建筑，每一层都会亮着灯，专门为晚归的人照亮回家的路；
+新加坡四季如夏，吊带衫、小短裙几乎是女性的标配，但却很少发生猥亵女性的安全事件，因为鞭刑可不是闹着玩的；
+在新加坡，打孩子是万万不能的，因为打孩子而入狱的糊涂家长不在少数；
+和国内一样，新加坡学校周围的警力也会相对稠密。
+正是这些健全完善的、来自学校、社会、国家各个层面的保护网，让新加坡的人们，特别是孩子们能够在一个健康稳定的环境中、生活学习和成长。
+当然，儿童保护任重而道远，各个国家都在不断的探索和进步当中。
+最后，希望孩子们都能够健康、茁壮的成长。
+" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

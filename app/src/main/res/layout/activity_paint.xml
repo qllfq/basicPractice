@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:test="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Paint"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <ImageView
+            android:layout_width="24dp"
+           android:layout_gravity="center"
+            android:layout_height="24dp"
+            android:id="@+id/ib_back"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/arrows"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="25dp"
+            android:text="绘本馆"
+            android:textSize="20dp"
+            android:textColor="#02b5bc"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="25dp"/>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c2c1c1"
+        />
+
+    <LinearLayout
+        android:id="@+id/farther_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <com.example.qiao.myapplication.ShapedImageView
+            android:id="@+id/picture_1"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:src="@mipmap/fartheriamge"
+            test:round_radius="15dp"
+            test:shape_mode="round_rect"
+           />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="饱含父亲深情的五星亲子绘本"
+                android:textSize="16sp"
+
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="14sp"
+                android:paddingTop="10dp"
+                android:text="小步书单 | 1-6岁"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1" />
+
+
+    <LinearLayout
+        android:id="@+id/sea_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <com.example.qiao.myapplication.ShapedImageView
+            android:id="@+id/picture_2"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:src="@mipmap/seaimage"
+            test:round_radius="15dp"
+            test:shape_mode="round_rect"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="海底畅游"
+                android:textSize="16sp"
+
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="14sp"
+                android:text="儿童精美图书绘本"
+                android:paddingTop="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1" />
+
+
+    <LinearLayout
+        android:id="@+id/panda_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <com.example.qiao.myapplication.ShapedImageView
+            android:id="@+id/picture_3"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:src="@mipmap/pandaimage"
+            test:round_radius="15dp"
+            test:shape_mode="round_rect"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="熊猫先生"
+                android:textSize="16sp"
+
+                android:textColor="#000"
+
+               />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="14sp"
+                android:text="让孩子受益终生的精彩故事"
+
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1" />
+
+
+    <LinearLayout
+        android:id="@+id/tom_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <com.example.qiao.myapplication.ShapedImageView
+            android:id="@+id/picture_4"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:src="@mipmap/tomimage"
+            test:round_radius="15dp"
+            test:shape_mode="round_rect"
+           />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="汤姆走丢了"
+                android:textSize="16sp"
+
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="14sp"
+                android:text="儿童喜欢的趣味故事"
+
+                android:paddingTop="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:background="#c8c8c8" />
+
+</LinearLayout>

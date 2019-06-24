@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Square"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:id="@+id/layouttop"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="vertical">
+       <!-- -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+
+            android:layout_centerInParent="true"
+
+            android:text="精选"
+            android:textColor="#02b5bc"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/dongtai"
+            android:id="@+id/publish"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"/>
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c2c1c1"
+        />
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/img_1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="5"
+                    android:text="铃当妈咪\n2岁一个月22天" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@mipmap/add" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="宇航员宝宝上线啦！！！拿出她那本有火箭图案的绘本让她认识火箭，简单的告诉她也是一种可以带我们去外太空的交通工具。开始引导说昨天坐飞船去的外太空，今天我们搭乘另外一种交通工具火箭去找月亮婆婆..."
+                android:textSize="16sp"
+
+                android:textColor="#000"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+
+                android:columnCount="3"
+                android:rowCount="3">
+
+                <ImageView
+                    android:id="@+id/iv_picture1"
+                    android:layout_width="110dp"
+                    android:layout_height="149dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@mipmap/img_1" />
+
+                <ImageView
+                    android:id="@+id/iv_picture2"
+                    android:layout_width="110dp"
+                    android:layout_height="149dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@mipmap/img_2" />
+
+                <ImageView
+                    android:id="@+id/iv_picture3"
+                    android:layout_width="110dp"
+                    android:layout_height="149dp"
+                    android:src="@mipmap/img_3" />
+
+                <ImageView
+                    android:id="@+id/iv_picture4"
+                    android:layout_width="110dp"
+                    android:layout_height="149dp"
+
+                    android:src="@mipmap/img_4" />
+
+                <ImageView
+                    android:id="@+id/iv_picture5"
+                    android:layout_width="110dp"
+                    android:layout_height="149dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@mipmap/img_5" />
+
+                <ImageView
+                    android:id="@+id/iv_picture6"
+                    android:layout_width="110dp"
+                    android:layout_height="149dp"
+                    android:src="@mipmap/img_6" />
+
+                <ImageView
+                    android:id="@+id/iv_picture7"
+                    android:layout_width="110dp"
+                    android:layout_height="149dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@mipmap/img_7" />
+
+                <ImageView
+                    android:id="@+id/iv_picture8"
+                    android:layout_width="110dp"
+                    android:layout_height="149dp"
+                    android:src="@mipmap/img_8" />
+            </GridLayout>
+
+
+
+            <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="全文"
+                android:textColor="#2dba95"
+                android:textSize="14sp"/>-->
+
+           <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#c2c1c1"
+                    />
+            </LinearLayout>-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+
+                <ImageView
+                    android:id="@+id/zan"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="100dp"
+                    android:src="@mipmap/skr" />
+
+                <!--<TextView
+
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_below="@+id/zan"
+                    android:text="2"
+                    android:textSize="12sp"/>
+-->
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                  android:id="@+id/pinglun"
+                   android:layout_alignParentRight="true"
+                    android:layout_marginRight="50dp"
+                    android:src="@mipmap/say" />
+
+                <!--<TextView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   android:layout_below="@+id/pinglun"
+                    android:text="2"
+                    android:textSize="12sp"/>-->
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@mipmap/share"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="-用启护在家早教-"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

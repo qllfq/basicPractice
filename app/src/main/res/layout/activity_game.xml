@@ -1,0 +1,242 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <include layout="@layout/titlebtn"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c2c1c1" />
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#7d7d7d"
+
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/side"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:src="@mipmap/boat"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="15dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="划小船" />
+
+            <TextView
+                android:id="@+id/tv_1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:lines="2"
+                android:ellipsize="end"
+                android:text="推荐理由：在划船过程中，宝宝也在动态中保持自己的平衡，对前庭觉训练很有好处。同时感受到家长给他的安全感，很好促进亲子关系。" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#7d7d7d"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/side"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:src="@mipmap/diy"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="15dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="DIY彩色透光积木" />
+
+            <TextView
+                android:id="@+id/tv_2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:lines="2"
+                android:ellipsize="end"
+                android:text="推荐理由：锻炼孩子的认知色彩能力以及对光的混合的理解，边学边玩，促进亲子关系" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#7d7d7d"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/side"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:src="@mipmap/magic"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="15dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="神秘的号码" />
+
+            <TextView
+                android:id="@+id/tv_3_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:lines="2"
+                android:ellipsize="end"
+                android:text="推荐理由：孩子把猜对的号码推向家长，获得的满足感大大的！游戏中不只是猜中数字那么简单，过程中还进行了大小的比对。" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#7d7d7d"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_4"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/side"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:id="@+id/iv_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:src="@mipmap/track"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_4_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="15dp"
+                android:textColor="#000000"
+
+                android:textSize="16sp"
+                android:text="轨迹线游戏" />
+
+            <TextView
+                android:id="@+id/tv_4_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:lines="2"
+                android:ellipsize="end"
+                android:text="推荐理由：这种看似无聊的把戏对于正在秩序期的孩子来说，相当有吸引力，也是打发无聊时光的好方法。" />
+        </LinearLayout>
+    </LinearLayout>
+
+   <!-- <TextView
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#7d7d7d"
+        android:layout_marginLeft="25dp"/>-->
+
+</LinearLayout>

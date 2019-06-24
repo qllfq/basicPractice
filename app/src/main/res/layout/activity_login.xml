@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login"
+    android:background="@mipmap/fback">
+
+
+
+        <ImageView
+            android:layout_marginTop="80dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/logo"
+              android:layout_gravity="center"
+            android:src="@mipmap/logo" />
+        <EditText
+            android:layout_marginTop="80dp"
+            android:paddingLeft="60dp"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="40dp"
+            android:textSize="14sp"
+            android:inputType="textPersonName"
+            android:id="@+id/login_edit_account"
+            android:background="@mipmap/user"
+            android:hint="请输入您的用户名"
+            />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:textSize="14sp"
+            android:id="@+id/login_edit_pwd"
+            android:background="@mipmap/pass"
+            android:paddingLeft="60dp"
+            android:hint="请输入您的密码"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            >
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="注册"
+                android:id="@+id/login_btn_register"
+                android:layout_alignParentLeft="true"
+                android:textColor="#02b5bc"
+                android:background="@drawable/next"
+                android:textSize="16sp"
+                android:layout_marginLeft="70dp"
+                />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="登录"
+                android:id="@+id/login_btn_login"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="70dp"
+                android:background="@drawable/next"
+                android:textSize="16sp"
+                android:textColor="#02b5bc"
+                />
+
+        </RelativeLayout>
+       <!-- <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创建数据库"
+            android:id="@+id/date"
+            android:textSize="20dp"
+
+            android:textColor="#ffffff"
+            android:background="#2ee759" />-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/weixin"
+            android:layout_marginLeft="145dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信登录"
+            android:textColor="#fff"
+            android:gravity="center_vertical"
+            android:layout_marginRight="127dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

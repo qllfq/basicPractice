@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <include layout="@layout/titlebtn"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:text="划小船" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:src="@mipmap/boat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="30dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="推荐理由：在划船过程中，宝宝也在动态中保持自己的平衡，对前庭觉训练很有好处。同时感受到家长给他的安全感，很好促进亲子关系。"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginBottom="30dp"
+                android:text="内容：\n
+家长保持坐姿，让宝宝躺在你的怀里，脸朝外，家长通过下肢来挪动位置，双手拉着宝宝的手臂模仿划船。记得我们童年有一首非常熟悉的歌《让我们荡起双桨》吗？给宝宝唱唱爸爸妈妈童年的歌，一起游戏吧。在划船过程中，宝宝也在动态中保持自己的平衡，对前庭觉训练很有好处。同时感受到家长给他的安全感，很好促进亲子关系。\n\n
+
+歌词：\n
+让我们荡起双桨\n
+小船儿推开波浪\n
+海面倒映着美丽的白塔\n
+四周环绕着绿树红墙\n
+小船儿轻轻 飘荡在水中\n
+迎面吹来了凉爽的风\n
+红领巾迎着太阳\n
+阳光洒在海面上\n
+水中的 鱼儿望着我们\n
+悄悄地听我们愉快歌唱\n
+小船儿轻轻 飘荡在水中\n
+迎面吹来了凉爽的风\n
+做完了一天的功课\n
+我们来尽情欢乐\n
+我问你亲爱的伙伴\n
+谁给我们安排下幸福的生活\n
+小船儿轻轻 飘荡在水中\n
+迎面吹来了凉爽的风\n
+让我们荡起双桨\n
+小船儿推开波浪\n
+海面倒映着美丽的白塔\n
+四周环绕着绿树红墙\n
+小船儿轻轻 飘荡在水中\n
+"
+                />
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

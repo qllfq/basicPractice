@@ -1,0 +1,197 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dip" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_gravity="bottom"
+            android:background="#33000000"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <View
+                    android:id="@+id/dot_0"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@mipmap/dian1"/>
+
+                <View
+                    android:id="@+id/dot_1"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@mipmap/dian2"/>
+                <View
+                    android:id="@+id/dot_2"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@mipmap/dian3"/>
+                <View
+                    android:id="@+id/dot_3"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@mipmap/dian4"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="10dp"
+            android:text="重庆儿童伤害背后：我们应该如何保护自己的孩子?"
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:paddingRight="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/dianb"/>
+
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="20sp"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:text="1天前    103跟帖"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="10dp"
+            android:text="重庆幼儿园悲剧:儿童保护任重道远！新加坡或许是值得..."
+            android:textSize="17sp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:paddingRight="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/diand"/>
+
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="20sp"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:text="新加坡头条 1天前 2跟帖"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="10dp"
+            android:text="关爱保护农村留守儿童宣讲走进太行山高速"
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:paddingRight="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/diana"/>
+
+        <TextView
+            android:layout_width="220sp"
+            android:layout_height="20sp"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:text="长城网 2018-10-22"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="10dp"
+            android:text="从“留守儿童”再到流动儿童我们该怎么保护他们..."
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:paddingRight="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/dianc"/>
+
+        <TextView
+            android:layout_width="220sp"
+            android:layout_height="20sp"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:text="yes科教 2018-10-06 102跟帖"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/ib_back"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:src="@mipmap/arrows"
+        android:background="#fff"
+        />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#02b5bc"
+        android:textSize="20sp"
+        android:text="十分钟游戏馆" />
+
+
+</LinearLayout>

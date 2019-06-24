@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebtn"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:text="神秘的号码" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:src="@mipmap/magic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="30dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="推荐理由：孩子把猜对的号码推向家长，获得的满足感大大的！游戏中不只是猜中数字那么简单，过程中还进行了大小的比对。"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginBottom="30dp"
+                android:text="内容：\n
+这是美国孩子在幼儿园教室里的必备项，通过猜一猜的方式帮助孩子学习数字顺序的一种有趣方式，比如4在5之前，6在5之后等等之类的概念。最好的点在于，它可以与任何你想练习的数字一起搭配， 1到10或到100。\n\n
+游戏开始，家长们先在脑海里想一个秘密的数字，范围在1-10之间。由孩子来猜一个数字，家长会告诉他这个数字是不是太大、太小还是正确。一开始游戏，孩子凭空想象数字顺序不容易，有趣到了几十，78,79哪个大，孩子不容易想象出来，我们也可以制成数字卡片，看得见摸得着也就不抽象了。\n
+孩子把猜对的号码推向家长，获得的满足感大大的！游戏中不只是猜中数字那么简单，过程中还进行了大小的比对，孩子的心里也是很有数啊。"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
